@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="shortcut icon" href="./src/img/fiveiconYoutube.png" type="image/x-icon">
+    <title>Youtube clone</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar"> <!--Fixed-->
+            <div class="icone-Youtube-Menu">
+                <img src="./src/img/menu-icon.png" width="24" id="menu-icon">
+                <a href="https://www.youtube.com/" target="_blank"><img src="./src/img/youtube-icon.png" width="90"
+                        id="youtube-icon"></a>
+            </div>
+            <div class="botao-search">
+                <input type="search" placeholder="Pesquisar" id="inputPesquisar">
+                <button type="button"><img src="./src/img/search-icon.png" width="24px"></button>
+            </div>
+            <div class="icones-perfil">
+                <div id="video-icon"></div>
+                <div id="bell-icon"></div>
+                <img src="./src/img/Eu-linkedin.jfif" width="34px">
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="content-principal">
+            <div class="iframe-play">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oUPaJxk6TZ0?si=HUPdAOg1UzUUaiLu"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <h2><strong>Guia DEFINITIVO de Aprendendo a Aprender | A maior BRONCA da sua vida [RATED R]
+                </strong></h2>
+
+            <div class="canal-inscrever-container">
+                <img src="./src/img/Eu-linkedin.jfif" id="canal">
+                <div class="canal-numeros">
+                    <h3>Erick Romão</h3>
+                    <p>83,3 mil inscritos</p>
+                </div>
+                <button type="button" id="inscrever"
+                    onclick="window.open('https://www.linkedin.com/in/r0mao1/', '_blank');"><img
+                        src="./src/img/Subscribe Button.png" id="img-inscrever"></button>
+                <div class="like-icons">
+                    <button type="button"><img src="./src/img/Like.png" id="like"></button>
+                    <button type="button"><img src="./src/img/Deslike.png"></button>
+                    <button type="button"><img src="./src/img/Share.png"></button>
+                    <button type="button"><img src="./src/img/Download.png"></button>
+                </div>
+            </div>
+            <div class="descricao">
+                <h4>100.568 de visualizações em 07 mai. de 2024</h4>
+                <p>Esse projeto foi feito para exercitar minhas habilidades e práticas com HTML e CSS responsivo,
+                    buscando sempre ampliar meu domínio nessas linguagens e proporcionar uma experiência web mais fluida
+                    e agradável para os usuários.(Foi colocado um vídeo meramente ilustrativo)</p>
+            </div>
+            <div class="comentarios-content">
+                <div class="comentarios-num">
+                    <h3>2 comentários</h3>
+                    <div><img src="./src/img/menu-icon.png"></div>
+                    <h5>Ordenar por</h5>
+                </div>
+            </div>
+            <div class="comentario">
+                <div><img src="./src/img/Eu-linkedin.jfif"></div>
+                <input type="text" placeholder="Adicione um comentário...">
+            </div>
+
+            <div class="comentario-container ">
+                <div>
+                    <img src="./src/img/Eu-linkedin.jfif">
+                </div>
+                <div class="comentario-nome-texto">
+                    <div class="nome-tempo">
+                        <h4>@erickromao</h4>
+                        <p>há 1 minuto</p>
+                    </div>
+                    <div id="proprio-comentario">Linkedin: <a href="https://www.linkedin.com/in/r0mao1/"
+                            target="_blank">Clique no comentário para acessar o meu perfil e conhecer mais sobre
+                            mim.</a></div>
+                    <div class="like-deslike-responder">
+                        <img src="./src/img/thumbs-up.png">
+                        <img src="./src/img/thumbs-down.png">
+                        <p>Responder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="comentario-container ">
+                <div>
+                    <img src="./src/img/Eu-linkedin.jfif">
+                </div>
+                <div class="comentario-nome-texto">
+                    <div class="nome-tempo">
+                        <h4>@erickromao</h4>
+                        <p>há 1 minuto</p>
+                    </div>
+                    <div id="proprio-comentario">Github: <a href="https://github.com/erickromao" target="_blank">De uma
+                            olhada nos meus projetos e exercícios no github!</a></div>
+                    <div class="like-deslike-responder">
+                        <img src="./src/img/thumbs-up.png">
+                        <img src="./src/img/thumbs-down.png">
+                        <p>Responder</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="content-recomendados">
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=1">
+                <div>
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=2">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=3">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=4">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=5">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=6">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=7">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=8">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=9">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=10">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=11">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=12">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=13">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="imagens-container">
+                <img src="https://picsum.photos/160/110?random=14">
+                <div class="textos-descricao">
+                    <h4>Imagem apenas ilustrativa - AI - Totalmente randomizada</h4>
+                    <p>Erick Romão</p>
+                    <p>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
